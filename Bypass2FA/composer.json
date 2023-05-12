@@ -1,0 +1,29 @@
+{
+    "name": "phpstudios/bypass-two-factorauth",
+    "description": "Using the Bypass Two Factor Auth, the store manager can disable the 2FA authorization for specific admin users chosen from the magento backend.",
+    "require": {
+        "php": ">=7.1.0",
+        "phpstudios/core": "1.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Support",
+            "email": "techsupport@phpstudios.com",
+            "homepage": "https://www.phpstudios.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PHPStudios\\Bypass2FA\\": ""
+        }
+    }
+}
